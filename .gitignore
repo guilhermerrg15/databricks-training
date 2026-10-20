@@ -1,0 +1,24 @@
+# Arquivos de dados locais e temporários
+*.csv
+*.parquet
+*.json
+*.xlsx
+data/
+tmp/
+temp/
+
+# Credenciais e arquivos sensíveis (Sempre ignore!)
+.env
+secrets.json
+*.pem
+*.key
+
+# Arquivos do Python / VS Code / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Arquivos de build ou temporários do Databricks
+.databricks/
